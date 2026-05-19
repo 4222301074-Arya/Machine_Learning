@@ -1,19 +1,3 @@
-# Week 4 — Supervised Learning (Regresi)
-
-Deskripsi singkat:
-- Topik: Regresi linier sederhana dan evaluasi model.
-- Dataset contoh: `USA_Housing.csv`.
-
-File penting:
-- `Supervised_Learning_Hands_On_Regresi.ipynb` — notebook latihan.
-
-Persyaratan:
-- Python 3.8+
-- pip install pandas scikit-learn
-
-Contoh program singkat (regression_example.py):
-
-```python
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
@@ -28,10 +12,3 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 pred = model.predict(X_test)
 print('MSE:', mean_squared_error(y_test, pred))
-```
-
-Jalankan:
-```
-pip install pandas scikit-learn
-python regression_example.py
-```
