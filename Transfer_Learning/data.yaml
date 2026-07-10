@@ -1,0 +1,10 @@
+
+path: /home/robot/train
+train: /home/robot/train/images/train
+val: /home/robot/train/images/val
+
+nc: 3
+names: 
+   0: Ball
+   1: Robot
+   2: Human
